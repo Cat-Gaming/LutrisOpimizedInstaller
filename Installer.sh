@@ -1,6 +1,4 @@
 #!/bin/bash
-echo Please Run This Script as Root
-sudo su
 #Installing Drivers
 sudo add-apt-repository ppa:graphics-drivers/ppa -y
 sudo apt update
