@@ -11,7 +11,7 @@ echo Installed Vulkan
 sudo dpkg --add-architecture i386 
 wget -nc https://dl.winehq.org/wine-builds/winehq.key
 sudo apt-key add winehq.key
-sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main
+sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main'
 sudo apt update
 sudo apt install --install-recommends winehq-stable
 echo Done Installing WineHQ
@@ -21,5 +21,6 @@ sleep 2
 sudo apt update
 sudo apt-get upgrade
 echo Done.
+echo Rebooting in 5 Seconds
 sleep 5
 sudo reboot
