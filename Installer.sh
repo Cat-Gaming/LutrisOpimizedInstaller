@@ -5,7 +5,9 @@ sudo su
 sudo add-apt-repository ppa:graphics-drivers/ppa -y
 sudo apt update
 sudo apt install nvidia-driver-418 nvidia-settings -y
+#Installing Vulkan
 sudo apt install libvulkan1 libvulkan1:i386 -y
+echo Installed Vulkan
 
 #Installing Wine
 sudo dpkg --add-architecture i386 
