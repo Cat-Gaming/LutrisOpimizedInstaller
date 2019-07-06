@@ -6,7 +6,7 @@
     This is a snap meant for new users and people to help them install lutris on a nvidia amd64 or intel64 bit system.
 
   grade: devel # must be 'stable' to release into candidate/stable channels
-  confinement: devmode # use 'strict' once you have the right plugs and slots
+  confinement: strict # use 'strict' once you have the right plugs and slots
 
   parts:
     my-part:
