@@ -1,7 +1,7 @@
 name: lutrisinstaller
 version: 0.1
-summary: GNU Hello, the "hello world" snap
+summary: Lutris Installer
 description: |
-  GNU hello prints a friendly greeting.
+  shorturl.at/cDUV7
 grade: beta
 confinement: strict
